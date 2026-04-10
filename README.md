@@ -30,4 +30,16 @@ https://www.omdbapi.com/
 - Added hover animations on cards (lift effect, poster zoom, red border glow)
 - Added error and empty-state handling (blank input, no results found)
   
+## Tuguldur Natsagdorj Contributions
+- Enter Key Support.Users can now press the Enter key to search instead of clicking the button. 
+- Improves usability and makes the app more user-friendly.
+- A "Loading..." message appears while data is being fetched from the API.
+- Gives immediate feedback to the user and improves perceived performance.
+- Fetch request updated to include plot=full.
+- Shows a more detailed movie description.
+- Fade-in animation for results
+- Input glow effect when focused
+- Button click animation
+- Improved overall user experience and interactivity
+
 Client-side JS API project
