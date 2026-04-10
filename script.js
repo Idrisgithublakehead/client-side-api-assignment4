@@ -20,7 +20,7 @@ searchBtn.addEventListener("click", () => {
     const movie = input.value;
 
     // call the OMDb API
-    fetch(`https://www.omdbapi.com/?t=${movie}&apikey=${apiKey}`)
+    fetch(`https://www.omdbapi.com/?t=${movie}&apikey=${apiKey}&plot=full`)
         .then(response => response.json()) // convert response to JSON
 
                 .then(data => {
