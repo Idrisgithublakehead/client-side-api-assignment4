@@ -6,6 +6,13 @@ const searchBtn = document.getElementById("searchBtn");
 const input = document.getElementById("searchInput");
 const output = document.getElementById("output");
 
+// allow pressing enter button to search.
+input.addEventListener("keypress", function(e) {
+    if (e.key === "Enter") {
+        searchBtn.click();
+    }
+});
+
 // this below runs when the button is actually clicked
 searchBtn.addEventListener("click", () => {
 
