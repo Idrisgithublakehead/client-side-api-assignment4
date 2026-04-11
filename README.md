@@ -12,7 +12,7 @@ https://www.omdbapi.com/
 ## Idris Zahir Contributions
 - Set up GitHub repository and project files
 - Created index.html structure and UI layout
-- Styled the page using CSS (blue/red theme)
+- Styled the page using CSS (blue/red theme)\idris zahir
 - Retrieved and activated OMDb API key
 - Implemented JavaScript fetch() to connect to API
 - Built movie search functionality using user input
